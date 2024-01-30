@@ -3,6 +3,9 @@ body {
     font-size: calc(24px + 16 * (100vw / 1280));;
     justify-content: center;
     text-align: center;
+    margin: 0 0 0 0;
+    user-select: none;
+    background-color: rgb(251, 207, 153);
 }
 .content {
     width: 70%;
