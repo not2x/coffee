@@ -9,9 +9,13 @@
 </head>
 <body>
     <img class="header" src="./header.png" alt="TATA COFFE">
-    <div class="main">
-        <img class="content" src="./test.png" alt="Картинка потерялася :(" />
-        <p>Грустной попой радостно не пукнешь! Улыбнись!</p>
+    <div id="main">
     </div>
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const id = urlParams.get('id') || 1;
+        const main_div = document.getElementById('main')
+        main_div.innerHTML += `<img class="content" src="./imgs/${id}.jpg" alt="Картинка потерялася :(" />`
+    </script>
 </body>
 </html>
