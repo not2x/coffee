@@ -5,16 +5,16 @@ body {
     text-align: center;
     margin: 0 0 0 0;
     user-select: none;
-    background-color: rgb(251, 207, 153);
     max-width: 720px;
     margin-left: auto;
     margin-right: auto;
+    background-image: url(./background.jpg);
 }
 #main {
     padding: auto;
 }
 .content {
-    width: 60vw;
+    width: 85vw;
     max-width: 400px;
     border-radius: 5%;
 }
